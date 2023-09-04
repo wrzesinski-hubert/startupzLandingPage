@@ -1,0 +1,38 @@
+.imagesWrapper {
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+.artLeft {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+.artRight {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.blockWithImages-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.blockWithImages-title {
+  color: #3d4f5c;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+.blockWithImages-description {
+  text-align: center;
+  color: #fb8958;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+}

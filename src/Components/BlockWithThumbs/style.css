@@ -1,0 +1,17 @@
+.thumbsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  gap: 30px;
+}
+.thumbsTitle {
+  color: #fb8958;
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 50%;
+  text-align: center;
+}
+.thumbRight {
+  transform: scaleX(-1);
+}

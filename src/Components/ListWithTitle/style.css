@@ -1,0 +1,62 @@
+.colorWrapper {
+}
+
+.listWithTitleWrapper {
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.listTitle {
+  color: #3d4f5c;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+.listDescription {
+  color: #fb8958;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+}
+
+.list {
+  display: flex;
+  gap: 50px;
+}
+.list_singleElement {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.list_singleElement-number {
+  color: #fb8958;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  width: 50px;
+  height: 40px;
+  border-bottom: 1px solid #3d4f5c;
+}
+.list_singleElement-description {
+  color: #3d4f5c;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 38px;
+}
+.list_singleElement-wrapper {
+  display: flex;
+  color: #fb8958;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.questionMark {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  right: 135px;
+}

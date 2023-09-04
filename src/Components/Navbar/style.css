@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 80px;
+}
+
+.buttonsWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button {
+  margin: 0px 10px;
+  padding: 10px 30px;
+  font-weight: bold;
+  color: #3d4f5c;
+}
+
+.outlinedButton {
+  border-radius: 32.5px;
+  border: 1px solid #46b8c8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #46b8c8;
+}
