@@ -1,5 +1,6 @@
 import "./style.css";
 import myLogo from "../../assets/logo.svg";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
   return (

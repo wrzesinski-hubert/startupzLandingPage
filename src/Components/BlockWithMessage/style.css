@@ -1,0 +1,56 @@
+.blockWithMessageWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  gap: 40px;
+  background-color: #ffc351 !important;
+}
+
+.messageBoxWrapper {
+  border-radius: 10px;
+  background: #f3f3f3;
+  box-shadow: 0px 8px 35px 0px rgba(187, 169, 142, 0.15);
+  width: 512px;
+  height: 601px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.messageTitle {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.2px;
+}
+
+.messageDescription {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.24px;
+}
+
+.messageInput {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 8px 35px 0px rgba(187, 169, 142, 0.15);
+  width: 429px;
+  height: 54px;
+  flex-shrink: 0;
+  border: 0px;
+  padding: 0px 10px;
+}
+
+.message {
+  padding-top: 20px;
+  resize: none;
+  height: 270px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

@@ -1,4 +1,4 @@
-import art from "../../assets/art.jpg";
+import art from "../../assets/art.png";
 import "./style.css";
 
 function Home() {
