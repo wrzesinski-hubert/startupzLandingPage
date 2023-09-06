@@ -1,6 +1,6 @@
 import "./style.css";
 
-function ListWithTitle({
+function BlockWithList({
   title,
   description,
   listElements,
@@ -13,7 +13,7 @@ function ListWithTitle({
 }) {
   return (
     <div className="colorWrapper">
-      <div className="listWithTitleWrapper">
+      <div className="BlockWithListWrapper">
         <img className="questionMark" src={image} alt="questionMark" />
         <div>
           <h1 className="listTitle">{title}</h1>
@@ -40,4 +40,4 @@ function ListWithTitle({
   );
 }
 
-export default ListWithTitle;
+export default BlockWithList;

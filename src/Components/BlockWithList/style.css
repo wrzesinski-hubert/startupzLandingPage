@@ -1,7 +1,4 @@
-.colorWrapper {
-}
-
-.listWithTitleWrapper {
+.BlockWithListWrapper {
   margin: 80px;
   display: flex;
   flex-direction: column;
@@ -30,6 +27,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 100%;
 }
 .list_singleElement-number {
   color: #fb8958;

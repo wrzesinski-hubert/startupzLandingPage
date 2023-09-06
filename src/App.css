@@ -12,11 +12,9 @@ body {
 
 .pageWrapper > div:nth-child(odd) {
   background-color: #fbfafa;
-  /* background-color: green; */
 }
 .pageWrapper > div:nth-child(even) {
   background-color: white;
-  /* background-color: red; */
 }
 .pageWrapper > div:first-child {
   background-color: white;

@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
-import ListWithTitle from "./Components/ListWithTitle/ListWithTitle";
+import BlockWithList from "./Components/BlockWithList/BlockWithList";
 import BlockWithThumbs from "./Components/BlockWithThumbs/BlockWithThumbs";
 import questionMark from "./assets/questionMark.png";
 import bulb from "./assets/bulb.png";
@@ -15,7 +15,7 @@ function App() {
     <div className="pageWrapper">
       <Navbar />
       <Home />
-      <ListWithTitle
+      <BlockWithList
         title={"Who we are"}
         description={
           "We create products that have innovation and technology at their core. We value working with talented people that understand the possibilities of today."
@@ -30,7 +30,7 @@ function App() {
         image={questionMark}
       />
       <BlockWithThumbs description={"We love solving problems!"} />
-      <ListWithTitle
+      <BlockWithList
         title={"Our core values"}
         description={""}
         listElements={[
