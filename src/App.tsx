@@ -8,6 +8,7 @@ import bulb from "./assets/bulb.png";
 import OurWork from "./Components/OurWork/OurWork";
 import BlockWithImages from "./Components/BlockWithImages/BlockWithImages";
 import BlockWithMessage from "./Components/BlockWithMessage/BlockWithMessage";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
       />
       <BlockWithImages />
       <BlockWithMessage />
+      <Footer />
     </div>
   );
 }

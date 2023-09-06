@@ -1,11 +1,9 @@
 import "./style.css";
 import myLogo from "../../assets/logo.svg";
-import { useEffect, useState } from "react";
-
 const Navbar = () => {
   return (
     <div className="navbar">
-      <img src={myLogo} alt="SVGimage" />
+      <img src={myLogo} alt="logo" />
       <div className="buttonsWrapper">
         <div className="button">Startups</div>
         <div className="button">Contact</div>

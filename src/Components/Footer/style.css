@@ -1,0 +1,61 @@
+.footerWrapper {
+  display: flex;
+  width: 100%;
+  margin: 100px 0px;
+}
+.footerTitle {
+  color: #3d4f5c;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+}
+.footerWrapper div {
+  display: flex;
+  flex-direction: column;
+}
+.rightsWrapper span {
+  display: block;
+  color: #939393;
+  font-size: 18px;
+  line-height: 30px;
+}
+.companies {
+  flex-direction: column;
+}
+.link {
+  color: #46b8c8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 35px;
+}
+.footerDescription {
+  color: #939393;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+}
+.footerImage {
+  width: 180px;
+}
+.logoWrapper {
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 4;
+}
+.companiesWrapper {
+  gap: 20px;
+  flex-grow: 2;
+}
+.contactWrapper {
+  gap: 20px;
+  flex-grow: 2;
+}
+.socialsWrapper {
+  gap: 20px;
+  flex-grow: 1;
+}
+.icon {
+  width: 23px;
+}

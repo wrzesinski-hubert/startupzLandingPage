@@ -10,7 +10,9 @@ function BlockWithMessage() {
         <input className="messageInput" type="text" placeholder="Name*" />
         <input className="messageInput" type="text" placeholder="Email*" />
         <textarea className="messageInput message" placeholder="Message*" />
-        <div className="filledButton">Shoot us a message</div>
+        <div className="filledButton" style={{ backgroundColor: "#3D4F5C" }}>
+          Shoot us a message
+        </div>
       </div>
     </div>
   );
