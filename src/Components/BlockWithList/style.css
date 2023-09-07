@@ -23,6 +23,11 @@
   display: flex;
   gap: 50px;
 }
+@media (max-width: 1250px) {
+  .list {
+    flex-direction: column;
+  }
+}
 .list_singleElement {
   display: flex;
   flex-direction: column;
@@ -57,4 +62,9 @@
   height: fit-content;
   position: absolute;
   right: 135px;
+}
+@media (max-width: 1250px) {
+  .questionMark {
+    display: none;
+  }
 }

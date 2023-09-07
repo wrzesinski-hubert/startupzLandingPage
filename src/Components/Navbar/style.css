@@ -2,9 +2,23 @@
   display: flex;
   justify-content: space-around;
   background-color: white;
-  padding: 20px 80px;
+  width: 100%;
 }
-
+.navbarWrapper {
+  width: 100%;
+  margin: 20px 80px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+@media (max-width: 650px) {
+  .navbarLogo {
+    display: none;
+  }
+  .navbar {
+    padding: 0px;
+  }
+}
 .buttonsWrapper {
   display: flex;
   width: 100%;

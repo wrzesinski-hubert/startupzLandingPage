@@ -15,7 +15,7 @@
 }
 
 .singleCard-wrapper {
-  width: 588px;
+  width: 70%;
   height: 554px;
   border-radius: 30px;
   background: #fff;
@@ -59,4 +59,8 @@
     row-gap: 30px;
     justify-items: center;
   }
+}
+
+.devicesImage {
+  width: 100%;
 }

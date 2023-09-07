@@ -14,7 +14,7 @@ function SingleCard({
       <div className="singleCard-title">{title}</div>
       <div className="singleCard-description">{description}</div>
       <div className="singleCard-image">
-        <img src={image} alt="image" />
+        <img src={image} alt="image" className="devicesImage" />
       </div>
       <div className="button outlinedButton">More</div>
     </div>
